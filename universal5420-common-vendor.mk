@@ -19,7 +19,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/universal5420-common/proprietary/vendor/bin/mcDriverDaemon:$(TARGET_COPY_OUT_VENDOR)/bin/mcDriverDaemon \
-    vendor/samsung/universal5420-common/proprietary/vendor/lib/libGLES_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGLES_trace.so \
     vendor/samsung/universal5420-common/proprietary/vendor/lib/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcClient.so \
     vendor/samsung/universal5420-common/proprietary/vendor/lib/libMcRegistry.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcRegistry.so \
     vendor/samsung/universal5420-common/proprietary/vendor/lib/libaptX_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptX_encoder.so \
@@ -37,6 +36,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal5420-common/proprietary/vendor/lib/soundfx/liblvverx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/liblvverx.so \
     vendor/samsung/universal5420-common/proprietary/vendor/lib/soundfx/liblvvetx.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/liblvvetx.so \
     vendor/samsung/universal5420-common/proprietary/vendor/lib/libstlport.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstlport.so \
-    vendor/samsung/universal5420-common/proprietary/vendor/lib/libw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libw.so \
     vendor/samsung/universal5420-common/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/samsung/universal5420-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so
